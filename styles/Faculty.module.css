@@ -1,0 +1,93 @@
+.container {
+  padding: 20px;
+}
+
+.heading {
+  color: #fff;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 100px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.grid > div {
+  flex: 1 1 calc(25% - 40px); /* Each item takes 25% width minus the gap */
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  height: 70px;
+  width: 285px;
+  background: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #111;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.dropdownIcon {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.staff {
+  display: flex;
+  padding: 22px 19px 21px 37px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalNavbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  color: #111;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  .heading {
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+}
