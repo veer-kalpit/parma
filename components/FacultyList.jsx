@@ -5,6 +5,8 @@ import FacultyCard from "./FacultyCard";
 import Modal from "./Modal";
 import styles from "../styles/Faculty.module.css";
 
+
+
 const facultyData = [
   {
     icon: (
